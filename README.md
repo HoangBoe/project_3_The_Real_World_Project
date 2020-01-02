@@ -12,22 +12,22 @@
 cd backend
 npm install
 ```
-2. Run backend with a terminal
+2. Start server mongo 
+```
+sudo service mongod start
+mongo
+```
+3. Run backend with a terminal
 ```
 node index.js
 ```
 
-3. downloads a package and it's dependencies in frontend 
+4. downloads a package and it's dependencies in frontend 
 ```
 cd frontend
 npm install 
 ```
-4. Run frontend with another terminal 
+5. Run frontend with another terminal 
 ```
 npm run-script build
-``` 
-5. Start server mongo 
-```
-sudo service mongod start
-mongo
 ```
